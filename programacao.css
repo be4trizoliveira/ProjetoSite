@@ -1,0 +1,526 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+    color: #02300a;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 100%;
+    height: 130px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 10px 0 25px #2a7c3c;
+}
+
+#logo-jifal {
+    height: 140px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-item {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #021a07;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.menu-item:hover {
+    background-color: #2a7c3c;
+    color: white;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    line-height: 60%;
+    padding: 20px;
+    margin: 0;
+    background-color: #a4ddb1;
+}
+
+/*página da programação*/
+
+.titulo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #006633;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.titulo-principal h1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2.4rem;
+    color: #006633;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.body {
+    margin: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.h2 {
+    color: #bdeba8;
+    border-bottom: 2px solid #c8f2b9;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.titulo {
+    font-size: 1.5em;
+}
+
+.body {
+    background-color: #f0fff7;
+    color: #02300a;
+    padding: 30px;
+}
+
+.body {
+    background-color: #f9fdfb;
+    color: #000000;
+    padding: 20px;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.infos p,
+.infos ul {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.informacoes-gerais ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.lista-equipes {
+    margin-top: 30px;
+}
+
+.lista-equipes ol {
+    padding-left: 20px;
+}
+
+.lista-equipes li {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.obs {
+    font-style: italic;
+    color: #555;
+    margin-top: 15px;
+}
+
+.jogos {
+    margin-top: 40px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tabela thead {
+    background-color: #f39c12;
+    color: white;
+}
+
+.tabela th,
+.tabela td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1-programacao {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #145c2e;
+}
+
+.titulo-secao {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #2a7c3c;
+}
+
+
+.informacoes-gerais {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    line-height: 1.6;
+}
+
+
+.informacoes-gerais ul {
+    margin-top: 8px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.informacoes-gerais ol {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    line-height: 1.6;
+}
+
+.bloco-tabela {
+    margin-top: 30px;
+}
+
+.descricao-equipes {
+    font-style: italic;
+    color: #0b4e26;
+    margin-bottom: 10px;
+}
+
+.observacao {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #333;
+}
+
+.tabela-flex {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #2a7c3c;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.linha-titulo {
+    display: flex;
+    background-color: #a4ddb1;
+    font-weight: bold;
+    text-align: center;
+}
+
+.linha {
+    display: flex;
+    border-top: 1px solid #d3d3d3;
+    text-align: center;
+}
+
+.coluna {
+    flex: 1;
+    padding: 10px;
+    background-color: #f4fbf7;
+}
+
+.coluna-numero {
+    max-width: 60px;
+    width: 60px;
+    flex: none;
+    background-color: #e2f0ea;
+    font-weight: bold;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabela th,
+.tabela td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela thead {
+    font-weight: bold;
+}
+
+.laranja thead {
+    background-color: #f57c00;
+    color: white;
+}
+
+.amarelo thead {
+    background-color: #fdd835;
+    color: #000;
+}
+
+.laranja tbody tr:nth-child(even) {
+    background-color: #fff3e0;
+}
+
+.amarelo tbody tr:nth-child(even) {
+    background-color: #fffde7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.cabecalho h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.linha-cabecalho {
+    background-color: #a4ddb1;
+    color: #000;
+    font-weight: bold;
+}
+
+.fundo-cinza {
+    background-color: #e8e8e8;
+}
+
+.fundo-lilas {
+    background-color: #e4ccf4;
+}
+
+.fundo-rosa {
+    background-color: #f4d3e0;
+}
+
+.fundo-azul {
+    background-color: #a9cfee;
+}
+
+.fundo-azul-claro {
+    background-color: #c5d8e7;
+}
+
+.fundo-laranja {
+    background-color: #f5be87;
+}
+
+.fundo-vermelho {
+    background-color: #db8585;
+}
+
+.fundo-amarelo {
+    background-color: #fff692;
+}
+
+.fundo-laranja {
+    background-color: rgb(249, 172, 31);
+}
+
+.tabela-handebol {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tabela-handebol thead tr {
+    background-color: #a88bd1;
+    color: white;
+}
+
+.tabela-handebol th,
+.tabela-handebol td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela-handebol tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.laranja thead {
+    background-color: #f57c00;
+    color: white;
+}
+
+.amarelo thead {
+    background-color: #fdd835;
+    color: black;
+}
+
+.fundo-lilas thead,
+.tabela-handebol thead {
+    background-color: #a88bd1;
+    color: white;
+}
+
+.fundo-rosa thead {
+    background-color: #f39abe;
+    color: black;
+}
+
+.fundo-cinza thead {
+    background-color: #e8e8e8;
+    color: black;
+}
+
+.fundo-azul thead {
+    background-color: #709fc5;
+    color: black;
+}
+
+.fundo-azul-claro thead {
+    background-color: #9bbdda;
+    color: black;
+}
+
+.fundo-laranja thead {
+    background-color: #ffe0c2;
+    color: black;
+}
+
+.fundo-vermelho thead {
+    background-color: #c15555;
+    color: black;
+}
+
+.fundo-amarelo thead {
+    background-color: #fff8b2;
+    color: black;
+}
+
+
+.lista-equipes {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 10px 20px;
+}
+
+.lista-equipes h2 {
+    text-align: center;
+    color: #2a7c3c;
+    margin-bottom: 15px;
+}
+
+.lista-equipes table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.lista-equipes th,
+.lista-equipes td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.lista-equipes th {
+    background-color: #2a7c3c;
+    color: white;
+    font-weight: 600;
+}
+
+.lista-equipes td {
+    font-weight: 500;
+    color: #02300a;
+}
+
+.tabela-feminino {
+    background-color: #f0f0f0;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-feminino td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.tabela-feminino .linha-escura {
+    background-color: #c0c0c0;
+    font-weight: bold;
+}
+
+.tabela-feminino .linha-clara {
+    background-color: #eaeaea;
+}
