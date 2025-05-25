@@ -529,15 +529,13 @@ nav a {
     object-fit: cover;
 }
 
-/*-----RODAPÉ DA PÁGINA CONTATO-----*/
+/*-----RODAPÉ-----*/
 
 .footer {
     background-color: #BED87C;
-    padding: 40px 20px;
-    font-family: Arial, sans-serif;
 }
 
-.footer-content {
+.footer-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -556,24 +554,6 @@ nav a {
     font-weight: bold;
 }
 
-.footer-column ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-column ul li {
-    margin-bottom: 10px;
-}
-
-.footer-column a {
-    text-decoration: none;
-    color: black;
-}
-
-.footer-column a:hover {
-    color: black;
-}
-
 .footer-column p {
     font-size: 14px;
     color: black;
@@ -587,6 +567,21 @@ nav a {
     justify-content: space-between;
     align-items: center;
     color: black;
+}
+
+.logo {
+    width: 100px;
+    height: 110px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #aaa;
 }
 
 /*-----GALERIA DE FOTOS-----*/
